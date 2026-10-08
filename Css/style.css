@@ -1,0 +1,179 @@
+.A {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 50px;
+}
+
+.B {
+  background-color: black;
+  color: #ffffff;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+#iconsearch {
+  height: 20px;
+  width: 25px;
+  position: relative;
+  padding-right: 35px;
+  top: 10px;
+}
+
+#btnRejoin {
+  background-color: #034bff;
+  color: #ffffff;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+
+/*----------------------------campus--------------------*/
+.premierpas {
+  padding: 30px 50px;
+}
+
+.premiertx h4 {
+  color: #034bff;
+}
+
+.txtcampus {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.txtcampus div {
+  border: 1px solid #dde4f0;
+  border-radius: 10px;
+  padding: 10px 20px;
+  width: 350px;
+}
+
+.txtcampus div h6 {
+  color: #034bff;
+}
+
+/*---lieu---*/
+.lieu {
+  padding: 20px 70px;
+  background-color: #F4F7FC;
+}
+
+.imgtxta,
+.imgtxtb {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.imgtxta div,
+.imgtxtb div {
+  border: 1px solid #dde4f0;
+  border-radius: 10px;
+  width: 600px;
+  margin: 10px 0;
+}
+
+.imgtxta div img,
+.imgtxtb div img {
+  height: 300px;
+  width: 500px;
+}
+
+/*------------------------formulaire-------------------------*/
+.formulaire {
+  padding: 10px 50px;
+}
+
+.formhead h4 {
+  color: #034bff;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.infolab {
+  display: flex;
+  flex-direction: column;
+}
+
+.infolab input {
+  width: 800px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid #E2E1E5;
+}
+
+.campusradio {
+  display: flex;
+  flex-direction: column;
+}
+
+#btnsinscrire {
+  border-radius: 10px;
+  width: 800px;
+  height: 40px;
+  margin: 10px 0;
+  border: none;
+  background-color: #034bff;
+  color: #ffffff;
+  text-align: left;
+  text-decoration: none;
+}
+
+/*-----------------------footer-------------------------*/
+footer {
+  padding: 20px 50px;
+  background-color: #101211;
+  color: #ffffff;
+}
+
+.footertxt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.youcodettxt {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+}
+
+.explorer ul,
+.retrouver ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.explorer ul li:first-child,
+.retrouver ul li:first-child {
+  color: #c3f85c;
+}
+
+.explorer ul li a,
+.retrouver ul li a {
+  color: #ffffff;
+}
+
+.lasttxt {
+  display: flex;
+  justify-content: space-between;
+}
