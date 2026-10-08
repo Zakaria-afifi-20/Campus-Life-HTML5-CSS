@@ -1,17 +1,40 @@
+
+/*---font-----*/
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz@6..144&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+  font-family: inter;
+}
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz@6..144&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+#IBM{
+  font-family: IBM Plex Mono ;
+  color: #B2BDB3;
+}
+/*---------------Acceuil------------------*/
 .A {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2px 50px;
 }
-
 .B {
   background-color: black;
   color: #ffffff;
   border: 2px solid black;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
+}
+.B_1_1 h1{
+  font-size: 60px;
+}
+#life{
 
+  color: #034bff;
+}
+#eqal{
+  color: #C7F64A;
 }
 
 ul {
@@ -23,6 +46,9 @@ ul {
 ul li a {
   color: black;
   text-decoration: none;
+}
+.A ul li a:hover{
+  border-bottom: 1px solid #101211;
 }
 
 #iconsearch {
@@ -40,8 +66,137 @@ ul li a {
   border-radius: 5px;
   border: none;
 }
+/*------------------C----------------------*/
+.C{
+   display: flex;
+   gap: 200px;
+   padding: 10px 60px;
+}
+.statistique{
+  display: flex;
+  gap: 30px;
 
-/*----------------------------campus--------------------*/
+}
+.statistique h3{
+  color: #034bff;
+  font-size: 30px;
+}
+/*------------------D----------------------*/
+.D{
+  background-color: #F4F7FC;
+  display: flex;
+  gap: 70px;
+  padding: 10px 50px;
+
+}
+.D1{
+  align-items: flex-start;
+  width: 500px;
+}
+.D1 h5{
+  color: #034bff;
+}
+#explorerbtn{
+  height: 40px;
+  width: 200px;
+  background-color: #034bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.D2{
+  display: flex;
+  gap: 20px;
+}
+.D2 p{
+  background-color: black;
+  color: white;
+ padding: 5px 10px 7px 2px ;
+ border-radius: 5px;
+ margin: 0;
+}
+/*------------------E----------------------*/
+.E{
+  padding: 10px 40px;
+background-color: #08111D;
+color: #ffffff;
+}
+.E1{
+
+}
+.E2{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+/*------------------F----------------------*/
+.F{
+  padding: 10px;
+   display: flex;
+   gap: 50px;
+}
+.F1{
+  padding: 20px ;
+  margin: 10px;
+  border-radius: 10px;
+  width: 10px;
+  background-color: #034bff;
+  color: #ffffff;
+  width: 400px;
+}
+#voirbtn{
+  background-color: white;
+  color: #034bff;
+  height: 35px;
+  width: 250px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.F2{
+  margin: 10px;
+  display: flex;
+  gap: 20px;
+}
+.evenmentcard{
+  border: 1px solid #DDE4F0;
+  border-radius: 20px;
+  width: 300px;
+  
+}
+.evenmentcard img{
+  border-radius: 20px;
+  width: 300px;
+}
+.evenmentcard p{
+  margin: 0;
+  color: #47526A;
+  font-size: 10px;
+}
+#evenmentbtn{
+  height: 30px;
+  width: 280px;
+  background-color: transparent;
+  border-color: #034bff;
+  color: #034bff;
+  border-radius: 5px;
+  margin: 20px 0px 20px 10px ;
+  font-weight: bold;
+}
+/*------------------G----------------------*/
+.G{
+  background-color: #F4F7FC;
+  padding: 10px 80px 0;
+   display: flex;
+   gap: 50px;
+}
+.txtG{
+  width: 600px;
+}
+
+/*---------------------------campus--------------------*/
+/*-1-----premierpas-----*/
 .premierpas {
   padding: 30px 50px;
 }
@@ -67,7 +222,7 @@ ul li a {
   color: #034bff;
 }
 
-/*---lieu---*/
+/*-2----lieu---*/
 .lieu {
   padding: 20px 70px;
   background-color: #F4F7FC;
@@ -77,21 +232,31 @@ ul li a {
 .imgtxtb {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 40px;
 }
 
 .imgtxta div,
 .imgtxtb div {
   border: 1px solid #dde4f0;
+  background-color: #FFFFFF;
   border-radius: 10px;
   width: 600px;
   margin: 10px 0;
+  font-size: larger;
 }
 
 .imgtxta div img,
 .imgtxtb div img {
   height: 300px;
-  width: 500px;
+  width: 600px;
+  border-radius: 10px 10px 0 0;
+}
+.imgtxta1 h6,h3,p{
+  padding-left: 20px;
+}
+.imgtxta1 h6,
+.lieutxt h6 {
+  color: #034bff;
 }
 
 /*------------------------formulaire-------------------------*/
@@ -144,6 +309,7 @@ footer {
   padding: 20px 50px;
   background-color: #101211;
   color: #ffffff;
+  margin: 0;
 }
 
 .footertxt {
@@ -172,8 +338,16 @@ footer {
 .retrouver ul li a {
   color: #ffffff;
 }
-
-.lasttxt {
+#footerbtn{
+  height: 70px;
+  width: 300px;
+  background-color: #C3F85C;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+.lasttxt{
   display: flex;
   justify-content: space-between;
 }
